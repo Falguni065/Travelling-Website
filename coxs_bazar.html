@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COX'S BAZAR</title>
+    <link rel="stylesheet" type="text/css" href="nav.css" >
+    <link rel="stylesheet" type="text/css" href="new css.css" >
+</head>
+<body>
+
+
+
+
+<div id="nav1">
+    <h1 id="header">...COX'S BAZAR...</h1>
+</div>
+
+<div class= "navbar">
+
+    <ul>
+
+        <li><a href="home3.php">HOME</a></li>
+        <li><a href="cox_hotel.html">HOTELS</a></li>
+        <li><a href="cox_rest.html">RESTAURANTS</a></li>
+        <li><a href="cox_guide.php">GUIDES</a></li>
+    </ul>
+
+</div>
+
+<br><br>
+
+
+<div class="slide-home">
+
+
+    <div class="slide-1">
+        <img src="cox1.jpg">
+    </div>
+
+
+
+    <div class="slide-1">
+        <img src="cox2.jpg">
+    </div>
+
+
+    <div class="slide-1">
+        <img src="cox3.jpg">
+    </div>
+
+</div>
+
+
+
+<div id="des">
+    <p>Cox’s Bazar is a District under Chittagong Division, which is famous for its longest unbroken sandy sea beach. It is located 150 km south of the industrial port- Chittagong. Cox’s Bazar is considered as having the longest sea beach in the world, with a total of 121 kilometer long. The name Cox’s Bazar was derived from its founder, Captain Cox. He founded the very attractive beach in 1798. Then the Cox’s Bazar beach started only as a small port and health resort.
+
+        Though the beach is considered to be the longest beach in the world, it has been the least crowded among the other beaches. Here, visitors can enjoy the relaxing breeze of the Bay of Bengal Sea and the peacefulness of the place. The Cox’s bazar beach certainly has the finest leisure it can offer to each of its visitors. People can take a timely stroll along the lengthened stretch of the beach and enjoy the view of the amazing seascape. Visitors can also enjoy water sport activities like scuba diving, surfing, and try some boat rides.
+
+        There are also other wonderful places to see around the Cox’s beach bazar. One of these is the beautiful Himchari waterfall, located 18 kilometer south of Cox’s Bazar sea beach. This is the most visited place in the district, with its beautiful refreshing green hills and the wonderful water fall, where visitors can bathe and swim apart from the sea itself.
+        Another attraction is the Moheshkhali Island near the Cox’s beach bazar coast. The island can be reached via speedboat. Here, visitors can view the breath-taking view of the island. With the bright green color of its mangrove forest that will surely amaze everyone who come to see the place. This is definitely the next best thing to explore after one’s beach trip.
+
+        Cox’s Beach Bazar really is the place best recommended for people who seeks for serene, soberness and relaxing vacation. Every Cox’s Beach Bazar trip will surely please and satisfy everyone who visits here.</p>
+
+</div>
+
+
+<script type="text/javascript">
+    var index = 0;
+    show();
+
+    function show()
+    {
+        var i;
+        var slides = document.getElementsByClassName("slide-1");
+        for(i = 0;i < slides.length; i++)
+        {
+            slides[i].style.display = "none";
+        }
+
+        index++;
+        if(index > slides.length)
+        {
+            index = 1
+        }
+
+        slides[index-1].style.display = "block";
+        setTimeout(show,5000);
+    }
+
+    function loadLogin() {
+        document.getElementById('body_id').innerHTML = "<object type='text/html' data='form.html'></object>";
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

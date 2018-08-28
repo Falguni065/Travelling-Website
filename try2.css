@@ -1,0 +1,66 @@
+#search_text
+{
+    width: 500px;
+    font-size: 20px;
+    border: 2px solid white;
+}
+#s2
+{
+    border: 1px solid white;
+    background-color: slategrey;
+    width: 80px;
+    text-align: center;
+}
+table
+{
+    padding-left: 370px;
+    padding-top: 50px;
+}
+
+#result
+{
+
+    width: 585px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white ;
+    height: auto;
+    margin-left: 373px;
+    background-color:#3B444F ;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+
+#t1
+{
+    text-decoration: none;
+    background-color:dimgrey;
+    height: 30px;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+
+
+
+
+}
+
+
+#t1 :hover
+{
+
+    background-color: darkgray;
+    transition: 0.5s;
+    height: 30px;
+    display: block;
+
+
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    width: 585px;
+}

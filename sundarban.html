@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SUNDARBAN</title>
+    <link rel="stylesheet" type="text/css" href="nav.css" >
+    <link rel="stylesheet" type="text/css" href="new css.css" >
+</head>
+<body>
+
+
+
+
+<div id="nav1">
+    <h1 id="header">...SUNDARBAN...</h1>
+</div>
+
+<div class= "navbar">
+
+    <ul>
+
+        <li><a href="home3.php">HOME</a></li>
+
+        <li><a href="sun_hotel.html">HOTEL</a></li>
+        <li><a href="sun_guide.php">TOUR GUIDE</a></li>
+    </ul>
+
+</div>
+
+<br><br>
+
+
+<div class="slide-home">
+
+
+
+
+    <div class="slide-1">
+        <img src="sund1.jpg">
+    </div>
+
+
+
+    <div class="slide-1">
+        <img src="sund2.jpg">
+    </div>
+
+
+
+
+
+    <div class="slide-1">
+        <img src="sund3.jpg">
+    </div>
+
+
+</div>
+
+
+
+<div id="des">
+    <p>The Sundarbans is a vast forest in the coastal region of the Bay of Bengal and considered one of the natural wonders of the world. It was recognised in 1997 as a UNESCO World Heritage Site of Bangladesh. Located in the delta region of Padma, Meghna and Brahmaputra river basins, this unique forest extends across Khulna, Satkhira, Bagerhat districts of Bangladesh and South 24 Parganas, North 24 Parganas districts of West Bengal, India. The Sundarbans contain the world's largest coastal mangrove forest, with an area of about 10,000 km2 (3,900 sq mi), of which about 6,000 km2 (2,300 sq mi) are located in Bangladesh and about 4,000 km2 (1,500 sq mi) in India. The Bangladeshi and Indian parts of the Sundarbans, while in fact adjacent parts of the uninterrupted landscape, have been listed separately in the UNESCO World Heritage List: as Sundarbans and Sundarbans National Park respectively. It is the world's largest delta. The Sundarbans is a network of marine streams, mud shores and mangrove forests. The region is known to contain numerous wildlife species, birds and reptiles, including Bengal tiger, chital, crocodile, snakes. Since 21 May 1992, the Sundarbans is recognized as a Ramsar Site of ecological importance.</p>
+
+</div>
+
+
+<script type="text/javascript">
+    var index = 0;
+    show();
+
+    function show()
+    {
+        var i;
+        var slides = document.getElementsByClassName("slide-1");
+        for(i = 0;i < slides.length; i++)
+        {
+            slides[i].style.display = "none";
+        }
+
+        index++;
+        if(index > slides.length)
+        {
+            index = 1
+        }
+
+        slides[index-1].style.display = "block";
+        setTimeout(show,5000);
+    }
+
+    function loadLogin() {
+        document.getElementById('body_id').innerHTML = "<object type='text/html' data='form.html'></object>";
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

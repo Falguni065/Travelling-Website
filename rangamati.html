@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RANGAMATI</title>
+    <link rel="stylesheet" type="text/css" href="nav.css" >
+    <link rel="stylesheet" type="text/css" href="new css.css" >
+</head>
+<body>
+
+
+
+
+<div id="nav1">
+    <h1 id="header">...RANGAMATI...</h1>
+</div>
+
+
+<div class= "navbar">
+
+    <ul>
+
+        <li><a href="home3.php">HOME</a></li>
+
+        <li><a href="rang_hotel.html">HOTEL</a></li>
+        <li><a href="rang_rest.html">RESTAURANTS</a></li>
+        <li><a href="rang_guide.php">GUIDES</a></li>
+    </ul>
+
+</div>
+
+<br><br>
+
+
+
+<div class="slide-home">
+
+
+    <div class="slide-1">
+        <img src="ran1.jpg">
+    </div>
+
+
+
+    <div class="slide-1">
+        <img src="ran2.jpg">
+    </div>
+
+
+    <div class="slide-1">
+        <img src="ran3.jpg">
+    </div>
+
+</div>
+
+
+
+<div id="des">
+    <p>Rangamati, a small town located amongst the green hills, lakes and rivers of the Chittagong Hill Tracts. This is what makes it a prime Bangladesh hill destination. It is known as the Lake City of Bangladesh as this place is located on the bank of the beautiful Kaptai Lake. It is the administrative headquarter of the Rangamati Hill District, the largest district of Bangladesh and located some 77 kilometres away from Chittagong. For long time Rangamati has been a prime Bangladesh tourist destination for its location, scenic beauty, colourful tribal people, tribal homespun textiles and ivory jewellery.</p>
+
+</div>
+
+
+<script type="text/javascript">
+    var index = 0;
+    show();
+
+    function show()
+    {
+        var i;
+        var slides = document.getElementsByClassName("slide-1");
+        for(i = 0;i < slides.length; i++)
+        {
+            slides[i].style.display = "none";
+        }
+
+        index++;
+        if(index > slides.length)
+        {
+            index = 1
+        }
+
+        slides[index-1].style.display = "block";
+        setTimeout(show,5000);
+    }
+
+    function loadLogin() {
+        document.getElementById('body_id').innerHTML = "<object type='text/html' data='form.html'></object>";
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,180 @@
+.complex
+{
+    border: 1px solid #333;
+    padding: 1em;
+    background: lightgreen;
+    font-size: 120%;
+    overflow: hidden;
+}
+
+.complex img
+{
+    float: left;
+    margin-right: inherit;
+    width: 500px;
+    height: 500px;
+    padding-right: 20px;
+
+}
+
+
+
+body
+{
+    background-color: #3B444F;
+    background-size: cover;
+
+    font-size: 20px;
+    margin: 0;
+    line-height: 24px;
+}
+
+.navbar
+{
+    text-align: center;
+    width: 100%;
+    background: #555555;
+    height: 50px;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+.navbar ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+
+}
+
+.navbar ul li a
+{
+    font-size: 20px;
+    display: block;
+    padding: 2px;
+    color: white;
+    text-decoration: none;
+    width: 130px;
+}
+
+.navbar ul:after
+{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+
+.navbar ul li
+{
+    float: left;
+    listy-style: none;
+
+}
+
+.navbar ul ul
+{
+    display: none;
+}
+
+.navbar ul li:hover > ul
+{
+    display: block;
+}
+
+.navbar ul li:hover
+{
+    background:#3B444F ;
+    transition: 0.9s;
+}
+
+.navbar ul li:hover a
+{
+    color: white;
+}
+
+.navbar ul ul
+{
+    background: #3B444F;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+}
+
+.navbar ul ul li
+{
+    float: none;
+    position: relative;
+}
+
+.navbar ul ul li a
+{
+    padding: 15px;
+    color: white;
+    width: 150px;
+    text-align: left;
+
+
+}
+
+.navbar ul ul li a:hover
+{
+    background: lightblue;
+    color: black;
+    transition: 0.9s;
+}
+
+
+#nav1
+{
+    background-color: #555555;
+    height: 70px;
+    width: 100%;
+}
+
+#header
+{
+    font-family: cursive;
+    color:  #F0F0F0;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+#reg_btn
+{
+    position: absolute;
+    right: 20px;
+    color: white;
+    text-decoration: none;
+    background-color:#3B444F ;
+    border: 2px solid white;
+}
+
+#log_btn
+{
+    position: absolute;
+    right: 200px;
+    color: white;
+    text-decoration: none;
+    background-color:#3B444F ;
+    border: 2px solid white;
+}
+
+#out_btn
+{
+    position: absolute;
+    right: 400px;
+    color: white;
+    text-decoration: none;
+    background-color:#3B444F ;
+    border: 2px solid white;
+}
+
+#rest
+{
+    background-color:seagreen;
+    font-size: 15px;
+}

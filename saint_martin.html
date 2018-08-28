@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SAINT MARTIN</title>
+    <link rel="stylesheet" type="text/css" href="nav.css" >
+    <link rel="stylesheet" type="text/css" href="new css.css" >
+</head>
+<body>
+
+
+
+
+<div id="nav1">
+    <h1 id="header">...SAINT MARTIN...</h1>
+</div>
+
+<div class= "navbar">
+
+    <ul>
+
+        <li><a href="home3.php">HOME</a></li>
+
+        <li><a href="st_hotel.html">HOTEL</a></li>
+        <li><a href="st_rest.html">RESTAURANTS</a></li>
+        <li><a href="st_guide.php">GUIDES</a></li>
+    </ul>
+
+</div>
+
+<br><br>
+
+<div class="slide-home">
+
+
+
+
+
+    <div class="slide-1">
+        <img src="st1.jpg">
+    </div>
+
+    <div class="slide-1">
+        <img src="st2.jpg">
+    </div>
+
+
+
+    <div class="slide-1">
+        <img src="st3.jpg">
+    </div>
+
+</div>
+
+
+
+<div id="des">
+    <p>St Martin's is a tropical cliché and the only coral island in Bangladesh, with beaches fringed with coconut palms and laid-back locals. It's a clean and peaceful place with nothing more strenuous to do than soak up the rays — even mosquitoes are a rarity. There's a naval base near the centre of the island, and the USA looked into setting up one of their own a few years back. The island was devastated by a cyclone in 1991 but has fully recovered, and was untouched by the 2004 tsunami.
+
+        It is possible to walk around St Martin's in a day since it measures only 8 km², shrinking to about 5 km² during high tide. Most of the island's 7000 inhabitants live primarily from fishing, and between October and April fishermen from neighbouring areas bring their catch to the island's temporary wholesale market. Rice and coconuts are the other staple crops, and algae is collected and dried from the sea rocks and sold for consumption to Myanmar.
+
+        Most things are concentrated around the far north of the island, with the centre and south being mostly farmland and makeshift huts. There is no electricity on the island, though the larger hotels run generators in the evenings for a few hours.
+
+        November to February is the main tourist season with the best weather, though keep an eye on the forecast, as the occasional cyclone can strike during this time.</p>
+
+</div>
+
+
+<script type="text/javascript">
+    var index = 0;
+    show();
+
+    function show()
+    {
+        var i;
+        var slides = document.getElementsByClassName("slide-1");
+        for(i = 0;i < slides.length; i++)
+        {
+            slides[i].style.display = "none";
+        }
+
+        index++;
+        if(index > slides.length)
+        {
+            index = 1
+        }
+
+        slides[index-1].style.display = "block";
+        setTimeout(show,5000);
+    }
+
+    function loadLogin() {
+        document.getElementById('body_id').innerHTML = "<object type='text/html' data='form.html'></object>";
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

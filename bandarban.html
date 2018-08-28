@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BANDARBAN</title>
+    <link rel="stylesheet" type="text/css" href="nav.css" >
+    <link rel="stylesheet" type="text/css" href="new css.css" >
+</head>
+<body>
+
+
+
+<div id="nav1">
+    <h1 id="header">...BANDARBAN...</h1>
+</div>
+
+<div class= "navbar">
+
+    <ul>
+
+        <li><a href="home3.php">HOME</a></li>
+
+        <li><a href="ban_hotel.html">HOTELS</a></li>
+        <li><a href="ban_rest.html">RESTAURANTS</a></li>
+        <li><a href="ban_guide.php">GUIDES</a></li>
+    </ul>
+
+</div>
+
+<br><br>
+
+
+
+<div class="slide-home">
+
+
+    <div class="slide-1">
+        <img src="ban1.jpg">
+    </div>
+
+
+
+    <div class="slide-1">
+        <img src="ban2.jpg">
+    </div>
+
+
+    <div class="slide-1">
+        <img src="ban3.jpg">
+    </div>
+
+</div>
+
+
+
+<div id="des">
+    <p>Bandarban has been the most beautiful tourist destination of Bangladesh in recent years.
+        Nature has adorned this region with its magnificent and splendid green ornaments.
+        Beauty is scattered everywhere of Bandarban in magnanimous mood.
+        One will find the virgin beauty of Bandarban on every step he or she advances.
+        Nature is extravagant here. Behind the name of Bandarban there is an overwhelming story.
+        Long time ago this district was a great natural habitat for monkeys and it was crisscrossed by numerous canals (jhiri).
+        Monkeys used to collect fruits from forests on the other side of the canal and cross it.
+        After eating and collection of fruits, they returned in the same way as a group.
+        When they crossed canals it looked like a dam from a distance.
+        It caught the sight of local Marma community and they termed it as Magci.
+        Here Mag means monkeys and Ci means dam.
+        Gradually it has been transformed in the local dialect Bandarbon.
+        With the passage of time it has undergone a phonetic change and now it is Bandarban.</p>
+
+</div>
+
+
+<script type="text/javascript">
+    var index = 0;
+    show();
+
+    function show()
+    {
+        var i;
+        var slides = document.getElementsByClassName("slide-1");
+        for(i = 0;i < slides.length; i++)
+        {
+            slides[i].style.display = "none";
+        }
+
+        index++;
+        if(index > slides.length)
+        {
+            index = 1
+        }
+
+        slides[index-1].style.display = "block";
+        setTimeout(show,5000);
+    }
+
+    function loadLogin() {
+        document.getElementById('body_id').innerHTML = "<object type='text/html' data='form.html'></object>";
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

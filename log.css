@@ -1,0 +1,314 @@
+.bg {
+    /* The image used */
+    background-image: url("form_back.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.login
+{
+    width:320px;
+    height: 460px;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.login p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+
+.login input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+.login input[type="text"],input[type="password"]
+{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    outline:none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+
+}
+
+
+
+
+
+.login input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: cornflowerblue;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.login input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: lightsteelblue;
+
+}
+
+.avatar
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+
+.login label
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+h1
+{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.hl
+{
+    color: white;
+    padding-top: 500px;
+    font-weight: bold;
+
+}
+.failed-echo
+{
+
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+#hom_btn
+{
+
+    outline: none;
+    position: absolute;
+    width: 25%;
+    height: 20px;
+    color: snow;
+    text-decoration: none;
+    background: yellowgreen;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    text-align: left;
+    margin-left: 10px;
+
+}
+
+#home_btn
+{
+
+    outline: none;
+    position: relative;
+    width: 25%;
+    height: 15px;
+    color: snow;
+    text-decoration: none;
+    background: yellowgreen;
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    padding-bottom: 15px;
+    text-align: left;
+    margin-left: 25px;
+
+
+}
+
+
+#in_btn
+{
+
+    outline: none;
+    position: absolute;
+    width: 25%;
+    height: 20px;
+    color: snow;
+    text-decoration: none;
+    background: yellowgreen;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    text-align: left;
+    margin-left: 150px;
+
+}
+
+#hom_btn:hover
+ {
+     cursor: pointer;
+     background: greenyellow;
+
+ }
+#home_btn:hover
+{
+    cursor: pointer;
+    background: greenyellow;
+
+}
+
+#in_btn:hover
+{
+    cursor: pointer;
+    background: greenyellow;
+
+}
+
+
+.loginn
+{
+    width:320px;
+    height: 450px;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+
+.login input[type="checkbox"]
+{
+    border:none;
+    height: 14px;
+
+    background:transparent;
+    outline:none;
+    margin-left: -100px;
+    margin-right: -110px;
+    color: white;
+
+
+}
+
+#rd
+{
+    font-size: 21px;
+}
+
+
+#sp
+{
+
+    position: absolute;
+    width: 5%;
+    height: 20px;
+    color: snow;
+    text-decoration: none;
+    background: cadetblue;
+    border: none;
+    border-radius: 10px;
+
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    opacity: 0.8;
+
+
+}
+
+
+#sp:hover
+{
+    cursor: pointer;
+    background: lightsteelblue;
+
+}
+
+#rp
+{
+
+    position: absolute;
+    width: 6%;
+    height: 20px;
+    color: snow;
+    text-decoration: none;
+    background: cadetblue;
+    border: none;
+    border-radius: 10px;
+
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 20px;
+    opacity: 0.8;
+
+
+}
+
+
+#rp:hover
+{
+    cursor: pointer;
+    background: lightsteelblue;
+
+}
